@@ -1,0 +1,21 @@
+.APIformTag {width:auto !important;}
+.newPageHolder {padding-top:0px;width:100%;}
+.newPageHolder .alertInfoTitle {padding:25px 0px 25px 90px;background:#6b81a5 url('../img/home_banner.jpg') no-repeat left top;}
+.newPageHolder h2 {color:#FFFFFF;font-family:Arial;font-size:24px;font-weight:normal;display:block;line-height:24px;text-shadow: 1px 1px 0px rgba(0,0,0,0.4);}
+.newPageHolder h3 {font-family:Arial;font-size:18px;font-weight:bold;padding:15px 12px;margin:0px;}
+.questionTitle {text-align:left;width:auto;}
+.questionTitle div {}
+.questionBox {text-align:left;border-bottom:solid 1px #d4d4d4;padding:8px 0px 13px 0px;cursor:pointer;cursor:hand;}
+.questionBox .innerIcon {width:30px;height:16px;float:left;}
+.documentation {background:url('../img/icon_documentation.gif') no-repeat 4px 8px}
+.examples {background:url('../img/icon_forums.gif') no-repeat 4px 8px}
+.forums {background:url('../img/icon_gettingstarted.gif') no-repeat 4px 8px}
+.questionBox .hoverRow .highlightItem {background-color:#f5f5f5;}
+.questionBox .innerContent {width:auto;margin:0px 0px 0px 30px;font-weight:normal;font-size:12px;}
+.top {margin:0px !important;padding:0px;height:1px;font-size:1px;}
+.over {background:#FFFFFF;}
+.itemHeader {font-family:Arial;font-size:14px;font-weight:bold;line-height:14px;}
+.questionBox .Item {background:#FFFFFF;color:#999999;font-weight:normal;font-size:12px;font-family:Arial;border-bottom:solid 1px #d4d4d4;padding:8px 6px;}
+.questionBox ul {margin:8px 0px;padding:0px;}
+.questionBox li {list-style-type:none;background:url(/images/wiki/icon_pageoptions_sprite.gif) no-repeat 0px -128px;padding-left:20px;}
+.clearLeft {clear:left;}

@@ -1,0 +1,22 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="_SocialNetworking.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>SocialNetworking</title>
+    <script src="/includes/js/jquery.aspx" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+	<link href="includes/styles.css" type="text/css" rel="stylesheet" />
+    <link href="/includes/css/api_styleReset.aspx" type="text/css" rel="Stylesheet" />
+</head>
+<body class="noBodyBackground">
+    <form runat="server">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </form>
+</body>
+
+</html>

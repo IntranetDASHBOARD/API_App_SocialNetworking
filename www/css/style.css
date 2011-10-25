@@ -1,0 +1,70 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------------------------*\
+	RESET
+\*------------------------------------*/
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{margin:0; padding:0}
+/*:link,:visited{text-decoration:none}*/
+ul,ol,dl{list-style:none}
+/*h1,h2,h3,h4,h5,h6,pre,code{font-size:1em; font-weight:normal}*/
+a img,:link img,:visited img{border:none}
+address{font-style:normal}
+/*body{font-size:62.5%; line-height:1.125em}*/
+
+/*------------------------------------*\
+	FORM & CONTENT
+\*------------------------------------*/
+form{width:100% ! important}
+.Content{padding:10px;height:100%}
+
+/*------------------------------------*\
+	HEADER
+\*------------------------------------*/
+.ribbon{width:100%;min-width:20em;max-width:776px;display:none}
+.ribbon .bd{background:transparent url("../img/header-ml-trans.png") no-repeat 0px 0px;margin-right:22px}
+.ribbon .bd .c{background:transparent url("../img/header-mr-trans.png") no-repeat right 0px;margin-right:-22px}
+.ribbon .bd .c .s{margin:0px 8px 0px 4px;padding:0}
+.welcome{height:20px;line-height:20px;text-indent:10px}
+
+/*------------------------------------*\
+	MAIN
+\*------------------------------------*/
+#Tweet{font-size:110%;margin-right:12px}
+#yammerTarget{font-size:110%;margin-right:12px}
+#Page{font-size:110%;margin-right:12px}
+.socialList{padding:0; margin:0;display:block;margin-right:10px}
+.socialList li{clear:both;padding:10px; margin:0;display:block;width:100%;background:transparent url("../img/box-bg-trans.png") repeat-x bottom;border-bottom:1px solid #cecece;border-left:1px solid #e9e9e9;border-right:1px solid #e9e9e9;list-style:none;cursor:pointer}
+.socialList li:hover{background-color:#f5f4f4}
+.socialFirst{border-top:1px solid #f1efef}
+.opened{min-height:48px}
+.socialAvatar{display:inline}
+.socialAvatar img{float:left;margin-right:5px}
+.socialTime{float:right;display:block}
+.socialTable{width:100%;}
+.socialTable .extra table{margin-top:10px;}
+
+/*------------------------------------*\
+	FOOTER
+\*------------------------------------*/
+.appFoot{clear:both;text-align:right}
+
+/*------------------------------------*\
+	IE6 FALLBACK
+\*------------------------------------*/
+* html .socialList{background-color:#eeeeee} 
+* html .ribbon .bd{margin-right:0}
+* html .ribbon .bd .c{margin-left:0}
